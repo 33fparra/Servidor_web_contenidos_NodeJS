@@ -1,19 +1,19 @@
 <img src="perfil.png" align="right" />
 
-# Trabajo Grupal 4 Modulo 6 [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/33fparra/Renderizado_hbs_tareasPendientes_m6_g4)
+# Trabajo Grupal 4 Modulo 6 [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/33fparra/Servidor_web_contenidos_NodeJS)
 
 > Nuestro Trabajo
 
 
-https://github.com/33fparra/Renderizado_hbs_tareasPendientes_m6_g4
+https://github.com/33fparra/Servidor_web_contenidos_NodeJS
 
 Contents
 ========
 
- * [Descripción del Proyecto](#descripción)
- * [Instrucciones de Instalación](#instrucciones)
- * [Funcionalidades](#funcionalidades)
- * [Participantes del Grupo](#participantes)
+ * [Descripción del Proyecto](#descripción-del-proyecto-memo)
+ * [Instrucciones de Instalación](#instrucciones-de-instalación-computer)
+ * [Funcionalidades](#funcionalidades-sparkles)
+ * [Participantes del Grupo](#participantes-del-grupo-busts_in_silhouette)
  
 ## Descripción del Proyecto :memo:
 
@@ -97,7 +97,7 @@ ingresar la URL de la imagen con estilos CSS de un documento interno en los arch
 2. Funcionalidad 2: Redimensionar la imagen a 350px
 3. Funcionalidad 3: Cambiar la calidad de la Imagen al 60%
 
-![Foto de perfil](/grupoVerde.jpg)
+![Foto de grupo](/grupoVerde.jpg)
 
 ## Participantes del Grupo :busts_in_silhouette:
 
@@ -114,3 +114,9 @@ ingresar la URL de la imagen con estilos CSS de un documento interno en los arch
 6. Felipe Andres Parra : https://github.com/33fparra
 
 ### Este proyecto está bajo la licencia MIT. Para más información, consulta el archivo LICENSE.
+
+
+<img src="logGrupoVerde.png" align="right" />
+
+## Grupo Verde (https://github.com/33fparra/Renderizado_hbs_tareasPendientes_m6_g4)
+
