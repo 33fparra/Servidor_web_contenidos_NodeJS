@@ -1,9 +1,7 @@
-// Importar las bibliotecas necesarias
 import express from 'express';
 import yargs from 'yargs';
 import { hideBin } from 'yargs/helpers';
 import Jimp from 'jimp';
-import { promises as fs } from 'fs';
 import { fileURLToPath } from 'url';
 import path from 'path';
 import hbs from "hbs";
@@ -40,11 +38,14 @@ app.use(express.static('public'));
 
 // Ruta principal con el formulario
 app.get('/', (req, res) => {
+  // console.log(__dirname);
   res.render("vista");
 });
 
-// Ruta para procesar la imagen
+// Esta es la ruta para procesar la imagen
 app.get('/process', async (req, res) => {
+  //coloco este console.log para que vean que estoy pidiendo en "req.query.url"
+  console.log(req.query.url)
   const imageUrl = req.query.url;
 
   const image = await Jimp.read(imageUrl);
