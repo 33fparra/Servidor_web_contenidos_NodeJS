@@ -74,9 +74,17 @@ ingresar la URL de la imagen con estilos CSS de un documento interno en los arch
     }
     ````
 
-4. If you don’t have a continuous integration service running, don’t forget
-   to add one — start with [Travis CI].
+4. Ejecutar el comando 'help':
 
+   ```sh
+   node server.js --help
+   ```
+
+5. Ejecutar el comando 'key', para que inicie el servidor, recuerda que la `key` correcta es `123`:
+
+   ```sh
+   node server.js --key 123
+   ```   
 </details>
 
 </details>
