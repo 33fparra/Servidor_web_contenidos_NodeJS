@@ -93,9 +93,9 @@ ingresar la URL de la imagen con estilos CSS de un documento interno en los arch
 
 ✨ Con nuestra aplicacion puedes:
 
-1. Funcionalidad 1: Cambiar imagen a escala de grises
-2. Funcionalidad 2: Redimensionar la imagen a 350px
-3. Funcionalidad 3: Cambiar la calidad de la Imagen al 60%
+1. Funcionalidad : Cambiar imagen a escala de grises
+2. Funcionalidad : Redimensionar la imagen a 350px
+3. Funcionalidad : Cambiar la calidad de la Imagen al 60%
 
 ![Foto de grupo](/grupoVerde.jpg)
 
