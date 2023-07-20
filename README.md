@@ -1,10 +1,20 @@
 <img src="perfil.png" align="right" />
 
-# Trabajo Grupal 4 Modulo 6  [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/33fparra/Renderizado_hbs_tareasPendientes_m6_g4)
+# Trabajo Grupal 4 Modulo 6 [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/33fparra/Renderizado_hbs_tareasPendientes_m6_g4)
+
 > Nuestro Trabajo
+
 
 https://github.com/33fparra/Renderizado_hbs_tareasPendientes_m6_g4
 
+Contents
+========
+
+ * [Descripción del Proyecto](#descripción)
+ * [Instrucciones de Instalación](#instrucciones)
+ * [Funcionalidades](#funcionalidades)
+ * [Participantes del Grupo](#participantes)
+ 
 ## Descripción del Proyecto :memo:
 
 📝 Implementar un servidor web de contenidos estáticos y dinámicos utilizando motores de plantillas acorde al entorno Node Express para dar solución a un problema.
@@ -20,12 +30,56 @@ ingresar la URL de la imagen con estilos CSS de un documento interno en los arch
 1. Clona el repositorio en tu máquina local.
 2. Abre una terminal y navega hasta la carpeta del proyecto.
 3. Ejecuta el siguiente comando para instalar las dependencias:
-  
+
    npm install
 
 4. Para que funcione debes escribir en la terminal: "node server.js --key 123"
-5. Abrir el archivo html ingresando al https://localhost:3000 
+5. Abrir el archivo html ingresando al https://localhost:3000
 6. En el formulario introducir la url de la imagen que procesaremos
+
+<details><summary><b>Ver las instrucciones</b></summary>
+
+1. Instalar las dependencias:
+
+   ```sh
+   npm install
+   ```
+
+2. En el caso de no poder instalar las dependencias:
+
+   ```sh
+   npm install --force
+   ```
+
+3. Las librerias que estamos ocupando `package.json`:
+
+    ````sh
+    ... 
+    "name": "helpers",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    + "type": "module",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+    "express": "^4.18.2",
+    + "hbs": "^4.2.0",
+    + "jimp": "^0.22.8",
+    "nodemon": "^3.0.1",
+    + "yargs": "^17.7.2"
+    }
+    ````
+
+4. If you don’t have a continuous integration service running, don’t forget
+   to add one — start with [Travis CI].
+
+</details>
+
+</details>
 
 ## Funcionalidades :sparkles:
 
@@ -35,7 +89,6 @@ ingresar la URL de la imagen con estilos CSS de un documento interno en los arch
 2. Funcionalidad 2: Redimensionar la imagen a 350px
 3. Funcionalidad 3: Cambiar la calidad de la Imagen al 60%
 
-
 ![Foto de perfil](/grupoVerde.jpg)
 
 ## Participantes del Grupo :busts_in_silhouette:
@@ -44,13 +97,12 @@ ingresar la URL de la imagen con estilos CSS de un documento interno en los arch
 
 2. Karla Mieres : https://github.com/karlamieres
 
-3. Zimram Blanco : https://github.com/Zimram 
+3. Zimram Blanco : https://github.com/Zimram
 
 4. Andrea Pilquiman : https://github.com/AndreaPLL
 
 5. Gonzalo Aranda : https://github.com/gonzaloaranda
 
 6. Felipe Andres Parra : https://github.com/33fparra
-
 
 ### Este proyecto está bajo la licencia MIT. Para más información, consulta el archivo LICENSE.
